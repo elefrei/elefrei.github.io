@@ -12,6 +12,7 @@ song = loadSound('technoBells.mp3');
 }
 function setup() {
   createCanvas(600, 600);
+  
   draggableCircle = new DraggableCircle(width/2,height/2,10);
 	
 }
